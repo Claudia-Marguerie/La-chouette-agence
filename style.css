@@ -686,9 +686,22 @@ p {
     margin: auto auto auto auto;
 }
 
+.image-resize-mode {
+    width: 100px;
+}
+
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
+}
+
+.citation {
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.citation_author {
+    font-size: 1.1em;
 }
 
 .cta-hero {
