@@ -15,7 +15,7 @@ header {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    outline: none;
 }
 
 a:hover {
@@ -44,10 +44,10 @@ a:hover {
     position: relative;
 }
 
-.bloc-3-texte {
+/* .bloc-3-texte {
     color: #FFFFFF;
     text-align: center;
-}
+} */
 
 .bloc .container {
     padding-left: 0;
@@ -66,7 +66,7 @@ a:hover {
     padding: 20px 50px;
 }
 
-.bg-center,
+/* .bg-center,
 .bg-l-edge,
 .bg-r-edge,
 .bg-t-edge,
@@ -80,7 +80,7 @@ a:hover {
     -moz-background-size: auto!important;
     -o-background-size: auto!important;
     background-size: auto!important;
-}
+} */
 
 .bg-repeat {
     background: repeat;
@@ -498,23 +498,23 @@ button {
     text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
 }
 
-.panel-sq,
+/* .panel-sq,
 .panel-sq .panel-heading,
 .panel-sq .panel-footer {
     border-radius: 0;
-}
+} */
 
-.panel-rd {
+/* .panel-rd {
     border-radius: 30px;
-}
+} */
 
-.panel-rd .panel-heading {
+/* .panel-rd .panel-heading {
     border-radius: 29px 29px 0 0;
-}
+} */
 
-.panel-rd .panel-footer {
+/* .panel-rd .panel-footer {
     border-radius: 0 0 29px 29px;
-}
+} */
 
 .form-control {
     border-color: rgba(0, 0, 0, .1);
