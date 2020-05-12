@@ -7,6 +7,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+header {
+    background-color: #FFFFFF;
+    padding: 20px 50px;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -18,14 +23,14 @@ a:hover {
     cursor: pointer;
 }
 
-#page-loading-blocs-notifaction {
+/* #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
     bottom: 0;
     width: 100%;
     z-index: 100000;
     background: #FFFFFF url("images/pageload-spinner.gif") no-repeat center center;
-}
+} */
 
 .bloc {
     width: 100%;
@@ -37,6 +42,11 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+}
+
+.bloc-3-texte {
+    color: #FFFFFF;
+    text-align: center;
 }
 
 .bloc .container {
@@ -264,13 +274,13 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-.voffset {
+/* .voffset {
     margin-top: 30px;
-}
+} */
 
-.voffset-lg {
+/* .voffset-lg {
     margin-top: 80px;
-}
+} */
 
 .row-no-gutters {
     margin-right: 0;
@@ -361,10 +371,6 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
-}
-
-.text-center {
-    text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -682,7 +688,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 0.9em;
 }
 
 .tight-width-whitespace {
@@ -728,7 +734,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -780,9 +786,9 @@ h4 {
     text-decoration: underline!important;
 }
 
-.bgc-white {
+/* .bgc-white {
     background-color: #FFFFFF;
-}
+} */
 
 .bgc-dark-slate-blue {
     background-color: #364577;
