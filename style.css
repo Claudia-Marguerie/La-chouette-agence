@@ -363,6 +363,10 @@ a:hover {
     z-index: 2;
 }
 
+.text-center {
+    text-align: center;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -789,7 +793,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
