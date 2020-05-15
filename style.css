@@ -630,6 +630,17 @@ a[data-lightbox]:hover img {
     right: 25px;
 }
 
+.partenaires_logo {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.partenaires_logo img {
+    width: 150px;
+}
+
 .prev-lightbox {
     padding: 6px 13px 1px 10px;
     left: 25px;
