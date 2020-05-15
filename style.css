@@ -99,6 +99,11 @@ a:hover {
     background-attachment: fixed;
 }
 
+.citation {
+    font-style: italic;
+    margin-top: 50px;
+}
+
 .d-bloc {
     color: rgba(255, 255, 255, .7);
 }
@@ -284,7 +289,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 2.5em;
 }
 
 .navbar {
@@ -302,6 +307,7 @@ a:hover {
 }
 
 .navbar-brand img {
+    height: 45px;
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
@@ -325,7 +331,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 1.3em;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -677,7 +683,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1.15em;
 }
 
 .tight-width-whitespace {
@@ -695,8 +701,15 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    font-size: 1.2em;
     font-weight: 700;
+}
+
+.cta-eq {
+    font-size: 1.3em;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .social {
@@ -705,12 +718,12 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 1.7em;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 1.4em;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -735,8 +748,9 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF!important;
+.yellow {
+    color: #fce400!important;
+    font-size: 1.18em;
 }
 
 .portfolio-thumb {
@@ -775,7 +789,11 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
+}
+
+.tc-dark-tangerine {
+    color: #bc3e07!important;
 }
 
 .btn-atomic-tangerine {
