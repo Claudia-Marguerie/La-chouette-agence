@@ -630,6 +630,10 @@ a[data-lightbox]:hover img {
     right: 25px;
 }
 
+.partenaires {
+    margin-top: 60px;
+}
+
 .partenaires_logo {
     margin-top: 40px;
     display: flex;
@@ -638,7 +642,19 @@ a[data-lightbox]:hover img {
 }
 
 .partenaires_logo img {
-    width: 150px;
+    width: 140px;
+}
+
+@media (max-width: 767px) {
+    .partenaires_logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .partenaires_logo a {
+        margin: 20px 0;
+    }
 }
 
 .prev-lightbox {
@@ -694,7 +710,23 @@ a {
 }
 
 p {
-    font-size: 1.15em;
+    font-size: 1.17em;
+}
+
+.ct-txt p {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    margin-top: 30px;
+}
+
+.txt-lg h2 {
+    font-size: 2.2em;
+}
+
+@media (max-width: 767px) {
+    .txt-lg h2 {
+        font-size: 1.8em;
+    }
 }
 
 .tight-width-whitespace {
@@ -717,7 +749,7 @@ p {
 }
 
 .cta-eq {
-    font-size: 1.3em;
+    font-size: 1.5em;
     margin-top: 30px;
     display: flex;
     justify-content: center;
@@ -725,7 +757,25 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 20px auto 40px auto;
+}
+
+@media (max-width: 767px) {
+    .social {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+.annuaires {
+    display: flex;
+    justify-content: center;
+    font-size: 1.15em;
+}
+
+.annuaires ul {
+    padding: 14px;
 }
 
 h2 {
@@ -750,13 +800,13 @@ h1 {
     color: #333333!important;
 }
 
-h4 {
-    color: #333333!important;
-}
-
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
+}
+
+.white {
+    color: #ffffff!important;
 }
 
 .yellow {
@@ -931,8 +981,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 30px!important;
+        padding-right: 30px!important;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -1040,7 +1090,7 @@ h4 {
         margin-top: 30px;
     }
     form {
-        padding: 5px;
+        padding: 20px;
     }
     .close-lightbox {
         display: inline-block;
