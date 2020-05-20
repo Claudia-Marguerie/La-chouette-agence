@@ -692,6 +692,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    line-height: 44px;
 }
 
 .hero-bloc-text-sub {
@@ -718,17 +719,17 @@ p {
     margin-top: 30px;
 }
 
+.image-resize-mode {
+    border-radius: 50px 50px;
+    border: solid 2px #ffffff;
+}
+
 .txt-lg h2 {
     font-size: 2.2em;
 }
 
 .coordonees {
     color: #bc3e07!important;
-}
-
-.e-mail {
-    font-size: 1.17em;
-
 }
 
 .e-mail:hover {
@@ -993,8 +994,8 @@ h1 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 30px!important;
-        padding-right: 30px!important;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
     }
     .b-parallax {
         background-attachment: scroll;
