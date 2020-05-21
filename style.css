@@ -721,7 +721,7 @@ p {
 
 .image-resize-mode {
     border-radius: 50px 50px;
-    border: solid 2px #ffffff;
+    border: solid 1px #F5976E;
 }
 
 .txt-lg h2 {
@@ -879,7 +879,6 @@ h1 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
-    border: solid 2px #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
