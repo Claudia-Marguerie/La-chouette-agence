@@ -879,6 +879,7 @@ h1 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
+    border: solid 2px #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
