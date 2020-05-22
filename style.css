@@ -18,14 +18,14 @@ a:hover {
     cursor: pointer;
 }
 
-#page-loading-blocs-notifaction {
+/* #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
     bottom: 0;
     width: 100%;
     z-index: 100000;
     background: #FFFFFF url("images/pageload-spinner.gif") no-repeat center center;
-}
+} */
 
 .bloc {
     width: 100%;
@@ -537,7 +537,9 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
@@ -547,14 +549,14 @@ a[data-lightbox]:hover::before {
     font-size: 32px;
     width: 50px;
     height: 50px;
-    margin-left: -25px;
+    /* margin-left: -25px; */
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
     font-weight: 100;
     z-index: 1;
     position: absolute;
-    top: 50%;
+    top: 46%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
@@ -754,7 +756,6 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    /* color: #FFFFFF!important; */
     color: #191615!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
@@ -792,6 +793,10 @@ p {
 
 .annuaires ul {
     padding: 14px;
+}
+
+.annuaires a {
+    color: #191615!important;
 }
 
 h2 {
